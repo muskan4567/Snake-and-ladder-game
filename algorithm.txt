@@ -1,0 +1,16 @@
+1)There are two players and they are given a dice.
+2)Typically the game board has 100 cells starting from 1 to 100.
+3)There are snakes and ladders in different cells.And each has either a ladder or a snake or nothing but not both snake and ladder in same cell.
+4)I use two arrays each for both snake and ladder ,and the index denotes that at which position we have ladder or snake and the value of the array at that index denotes the final position where the snake or ladder is pointing.
+5)I make “main function” in which first I will select that whether the user want to read the rules or play the game.
+6)If user want to read the rules then press ‘1’ and go to function “readtherules()”.
+7)Secondly there is option of seeing the snake and ladder board,for this purpose user should press ‘2’.
+8)After the game starts,I applied “switch case statetment”,which only give 1 or 2 through “TURN” variable. Case1 for player1 and case2 for player2.
+9)Now first player1 turn,so he roll the dice,we will check that he got ‘1’ or ‘6’ in first roll or not.
+10)If he don’t get ‘1’ or ’6’ then chance goes to player2.
+11)If he get ‘1’ or ‘6’ than we will check,if dice gives ‘6’ then we will call the function “checkdice()” for further work.
+12)If dice don’t give ‘6’ then directly we will call the function “checkposition()”,which will check that the current position is at “LADDER” OR “SNAKE” OR “NORMAL POSITION”.
+13)From step 9 the working is same for player2.
+14)We will continue the process from step 8 till we get position1 or position2 as 100,means I have declared two counter variable,p1 for player1 and p2 for player2 which will keep their current position and till one of them reached 100,we will continue our process.
+15)There are two more variables r1 and r2,which will count the number of times that player is rolling the dice which will be helpful in deciding the winner incase both player landed at 100.
+15)As one of them or both reached 100 we will declare the winner,their score and the no. the chance they take for reaching 100. 
