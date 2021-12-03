@@ -1,0 +1,11 @@
+a)Two arrays:- We have taken two arrays,”LADDER ARRAY” for storing the position where there is ladder and “SNAKE ARRAY” for storing the position where there is snake.Index of these array denotes the position of ladder and snake and its value denotes the position where it is pointing. 
+b)Dice variable:- We need dice variable so that player can roll it and dice variable is initialized at zero in starting.
+c)Turn variable:-We need turn variable which will first initialized at 1 indicating player1’s turn and initialized at 2 indicating player2’s turn.
+d)Position variable:- We need two position variable “p1” and “p2” for storing current score of player1 and player2.p1 for player1 and p2 for player2.
+e)Roll variable:- We need two Roll variables “r1” and “r2” for counting the no. of times dice is rolled by each of the player.r1 for player1 and r2 for player2.
+
+CONSTRAINTS:- 
+There are following constraints which both player should follow:- 
+a)Value of Dice should be greater than equal to ‘1’ and less than equal to ‘6’.
+b)Value of turn can only be ‘1’ and ‘2’ for player1 and player2.
+c)Value of p1 and p2 should always be less than or equal to 100,and if it reaches value greater than 100 than automatically it comes to 100.
